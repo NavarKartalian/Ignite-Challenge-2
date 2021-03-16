@@ -1,10 +1,10 @@
-import { GenreResponseProps, MovieProps } from '../App'
+import { GenreResponseProps } from '../App'
 import { Button } from './Button';
 import '../styles/sidebar.scss';
 
 interface SideBarProps {
-  selectedGenreId: number;
   genres: GenreResponseProps[];
+  selectedGenreId: number;
   setSelectedGenreId(id: number): void;
 
 }
